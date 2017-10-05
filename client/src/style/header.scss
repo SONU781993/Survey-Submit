@@ -1,0 +1,32 @@
+.AppHeader{
+text-decoration: none;
+color: #000000;
+font-family: Arial, sans-serif;
+font-size: -webkit-xxx-large;
+font-weight: bold;
+letter-spacing: 5px;
+  &:hover, &:focus{
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  @media screen and (min-width: 300px){
+  form{
+        width: 60vw;
+
+    }}
+}
+.plusButton{
+  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: red;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 11vw;
+  width: 16.412vw;
+}
+.plusButton:focus, .plusButton:hover{
+  text-decoration:none;
+}
